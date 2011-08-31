@@ -56,6 +56,8 @@ public class SwingHaus extends JFrame implements ActionListener{
 		
 		// Fuege Text zum Fenster hinzu und setze es in den Norden (oben)
 		add(textLabel, BorderLayout.NORTH);
+		// Fuege Text zum Fenster hinzu und setze es ins Zentrum
+		add(textLabel2, BorderLayout.CENTER);
 		// Fuege Button zum Fenster hinzu und setze es in den Sueden (unten)
 		add(okButton, BorderLayout.SOUTH);
 		
