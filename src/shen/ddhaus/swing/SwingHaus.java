@@ -15,7 +15,12 @@ public class SwingHaus extends JFrame implements ActionListener{
 	
 	private JLabel textLabel;
 	private JButton okButton;
-	private KButton KLabel;
+	
+	// --------------------- shen
+	//private KButton KLabel;
+	// --------------------- makubi
+	private JLabel textLabel2;
+	
 	public SwingHaus() {
 		// Titel des Fensters
 		setTitle("Swing Haus");
@@ -32,10 +37,17 @@ public class SwingHaus extends JFrame implements ActionListener{
 		textLabel = new JLabel();
 		textLabel.setText("Willkommen! :-)");
 		
-		setLayout(new BorderLayout.center());
+		// --------------------- shen
+		//setLayout(new BorderLayout.center());
+		// --------------------- makubi
 		
-		textLabel = new KLabel();
-		textLabel.setText("Geht es");
+		// --------------------- shen
+		//textLabel = new KLabel();
+		//textLabel.setText("Geht es");
+		// --------------------- makubi
+		textLabel2 = new JLabel();
+		textLabel2.setText("Geht es");
+		
 		// Initialisiere neuen Button
 		okButton = new JButton("OK");
 		// Fuege Listener hinzu, damit eine Aktion beim Druecken des Buttons aufgefuehrt wird
